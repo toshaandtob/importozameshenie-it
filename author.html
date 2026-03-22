@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Об авторе - Импортозамещение в IT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .author-page {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .logo-block {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .author-logo-svg {
+            width: 200px;
+            height: 200px;
+        }
+        .author-info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .info-block {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .info-block h4 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        @media (max-width: 600px) {
+            .author-info-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Импортозамещение в IT</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="content.html">Об импортозамещении</a></li>
+                <li><a href="sources.html">Источники</a></li>
+                <li><a href="author.html" class="active">Об авторе</a></li>
+                <li><a href="survey.html">Опрос</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h2>Об авторе</h2>
+            <p class="subtitle">Информация о разработчике проекта</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="author-page">
+            <div class="logo-block">
+                <!-- Авторский логотип в формате SVG -->
+                <svg class="author-logo-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="100" cy="100" r="95" fill="url(#grad)"/>
+                    <text x="100" y="80" text-anchor="middle" fill="white" font-size="28" font-family="Arial" font-weight="bold">ИТ</text>
+                    <text x="100" y="115" text-anchor="middle" fill="white" font-size="14" font-family="Arial">Импорто</text>
+                    <text x="100" y="135" text-anchor="middle" fill="white" font-size="14" font-family="Arial">замещение</text>
+                    <text x="100" y="165" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11" font-family="Arial">2026</text>
+                </svg>
+                <p style="color: #888; font-size: 0.85rem; margin-top: 0.5rem">Авторский логотип проекта</p>
+            </div>
+
+            <div class="author-info-grid">
+                <div class="info-block">
+                    <h4>&#128100; ФИО</h4>
+                    <p>Пархоменко Антон Викторович</p>
+                </div>
+                <div class="info-block">
+                    <h4>&#127979; Факультет</h4>
+                    <p>Факультет информационных технологий</p>
+                </div>
+                <div class="info-block">
+                    <h4>&#128218; Группа</h4>
+                    <p>Магистратура, 1 курс</p>
+                </div>
+                <div class="info-block">
+                    <h4>&#127970; Университет</h4>
+                    <p>РГПУ им. А.И. Герцена</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 2rem; background: #f8f9fa; padding: 1.5rem; border-radius: 8px;">
+                <h4 style="color: #667eea; margin-bottom: 1rem;">&#128196; О проекте</h4>
+                <p style="color: #555;">Данный образовательный ресурс создан в рамках выполнения учебного задания по дисциплине «Технологии цифрового образования». Тема исследования: «Импортозамещение в IT &mdash; опыт студентов».</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Образовательный проект "Импортозамещение в IT"</p>
+        </div>
+    </footer>
+</body>
+</html>
