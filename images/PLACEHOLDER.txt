@@ -1,0 +1,20 @@
+ЗАГЛУШКИ ДЛЯ ИЗОБРАЖЕНИЙ
+
+В этой папке должны быть размещены следующие изображения:
+
+ОБЯЗАТЕЛЬНЫЕ ИЗОБРАЖЕНИЯ:
+- hero-image.jpg (1920x1080px)
+- import-substitution-concept.jpg (1200x800px)  
+- russian-software.jpg (1200x800px)
+- diagram.jpg (1000x800px)
+- placeholder.jpg (800x600px)
+
+ДОПОЛНИТЕЛЬНЫЕ ИЗОБРАЖЕНИЯ (по желанию):
+- technology-background.jpg
+- russian-it-companies-logos.png
+- statistics-chart.jpg
+
+ИНСТРУКЦИЯ:
+1. Удалите этот файл (PLACEHOLDER.txt) после загрузки изображений
+2. Используйте кнопку "Upload files" для загрузки
+3. Прочитайте README.md для подробных инструкций
